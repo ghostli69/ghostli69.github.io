@@ -22,15 +22,11 @@ html body {
     flex-wrap: nowrap;
 }
 
-.header-links {}
-
 .header-logo {
     height: 90px;
     margin-left: auto;
     margin-right: auto;
 }
-
-.header-social {}
 
 .bg-container {
     background-image: url('Assets/20220926_164712_Custom.jpg');
