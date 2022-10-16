@@ -20,12 +20,14 @@ html body {
     align-content: center;
     justify-content: flex-start;
     flex-wrap: nowrap;
+    display: none;
 }
 
 .header-logo {
     height: 90px;
     margin-left: auto;
     margin-right: auto;
+    display: none;
 }
 
 .bg-container {
