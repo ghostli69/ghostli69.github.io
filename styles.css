@@ -4,9 +4,6 @@ html body {
     overflow: hidden;
 }
 
-
-/*Header*/
-
 .header {
     position: relative;
     z-index: 2;
