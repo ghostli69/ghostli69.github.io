@@ -1,47 +1,78 @@
-        html body {
-            margin: 0;
-            height: 100%;
-            overflow: hidden;
-        }
-        
-        .bg-container {
-            background-image: url('Assets/20220926_164712_Custom.jpg');
-            width: 100vw;
-            height: 100vh;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            background-color: rgba(0, 0, 0, 0.3);
-        }
-        
-        .comingsoon-container {
-            font-family: 'Dancing Script', cursive;
-            font-size: 100px;
-            margin: auto;
-            width: 100%;
-            text-align: center;
-            margin: 0;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-            color: azure;
-            overflow: hidden;
-        }
-        
-        .overlay {
-            background-color: rgba(0, 0, 0, 0.3);
-            height: 100vh;
-            width: 100%;
-        }
-        
-        @media only screen and (max-width: 767px) {
-            .bg-container {
-                width: 100vw;
-                height: 100vh;
-            }
-            .comingsoon-container {
-                font-size: 30px;
-            }
-        }
+html body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+/*Header*/
+
+.header {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    background-color: black;
+    display: flex;
+    height: 120px;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.header-links {}
+
+.header-logo {
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-social {}
+
+.bg-container {
+    background-image: url('Assets/20220926_164712_Custom.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.comingsoon-container {
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: azure;
+    overflow: hidden;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .bg-container {
+        width: 100vw;
+        height: 100vh;
+    }
+    .comingsoon-container {
+        font-size: 30px;
+    }
+}
